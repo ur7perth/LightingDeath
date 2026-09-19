@@ -1,4 +1,4 @@
-Enterpackage com.abo9kr.killlightning;
+package com.abo9kr.killlightning;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
