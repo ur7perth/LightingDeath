@@ -1,4 +1,4 @@
-Enter{
+{
   "schemaVersion": 1,
   "id": "killlightning",
   "version": "${version}",
@@ -8,8 +8,8 @@ Enter{
   "license": "MIT",
   "environment": "*",
   "entrypoints": {
-    "main": ["com.example.killlightning.KillLightning"],
-    "client": ["com.example.killlightning.KillLightningClient"]
+    "main": ["com.abo9kr.killlightning.KillLightning"],
+    "client": ["com.abo9kr.killlightning.KillLightningClient"]
   },
   "depends": {
     "fabricloader": ">=0.16.0",
