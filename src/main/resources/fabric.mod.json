@@ -3,12 +3,12 @@
   "id": "killlightning",
   "version": "${version}",
   "name": "Kill Lightning",
-  "description": "Shows a lightning bolt only to the killer when they kill a player. Server-side only.",
+  "description": "Client-side lightning effect and sound when you kill a player.",
   "authors": ["abo9kr"],
   "license": "MIT",
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
-    "main": ["com.abo9kr.killlightning.KillLightning"]
+    "client": ["com.abo9kr.killlightning.KillLightningClient"]
   },
   "depends": {
     "fabricloader": ">=0.16.0",
