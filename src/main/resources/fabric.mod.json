@@ -1,0 +1,20 @@
+Enter{
+  "schemaVersion": 1,
+  "id": "killlightning",
+  "version": "${version}",
+  "name": "Kill Lightning",
+  "description": "Shows a cosmetic lightning bolt only to the killer when they kill a player.",
+  "authors": ["abo9kr"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.killlightning.KillLightning"],
+    "client": ["com.example.killlightning.KillLightningClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
