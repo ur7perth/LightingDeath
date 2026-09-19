@@ -6,7 +6,7 @@
   "description": "Shows a lightning bolt only to the killer when they kill a player. Server-side only.",
   "authors": ["abo9kr"],
   "license": "MIT",
-  "environment": "server",
+  "environment": "*",
   "entrypoints": {
     "main": ["com.abo9kr.killlightning.KillLightning"]
   },
